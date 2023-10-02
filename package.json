@@ -38,13 +38,16 @@
   "dependencies": {
     "@stdlib/ndarray-iter-columns": "github:stdlib-js/ndarray-iter-columns#main",
     "@stdlib/ndarray-iter-rows": "github:stdlib-js/ndarray-iter-rows#main",
+    "@stdlib/ndarray-iter-to-array-each": "github:stdlib-js/ndarray-iter-to-array-each#main",
     "@stdlib/utils-define-read-only-property": "^0.1.0"
   },
   "devDependencies": {
     "@stdlib/array-base-zero-to": "^0.1.0",
     "@stdlib/array-base-zeros": "^0.1.1",
     "@stdlib/assert-has-own-property": "^0.1.0",
+    "@stdlib/assert-is-array": "^0.1.0",
     "@stdlib/assert-is-boolean": "^0.1.0",
+    "@stdlib/assert-is-function": "^0.1.0",
     "@stdlib/assert-is-iterator-like": "^0.1.0",
     "@stdlib/assert-is-ndarray-like": "^0.1.0",
     "@stdlib/assert-is-plain-object": "^0.1.0",
