@@ -36,6 +36,7 @@
     "url": "https://github.com/stdlib-js/stdlib/issues"
   },
   "dependencies": {
+    "@stdlib/ndarray-iter-columns": "github:stdlib-js/ndarray-iter-columns#main",
     "@stdlib/ndarray-iter-rows": "github:stdlib-js/ndarray-iter-rows#main",
     "@stdlib/utils-define-read-only-property": "^0.1.0"
   },
