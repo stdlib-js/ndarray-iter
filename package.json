@@ -37,12 +37,14 @@
   },
   "dependencies": {
     "@stdlib/ndarray-iter-columns": "github:stdlib-js/ndarray-iter-columns#main",
+    "@stdlib/ndarray-iter-entries": "github:stdlib-js/ndarray-iter-entries#main",
     "@stdlib/ndarray-iter-indices": "github:stdlib-js/ndarray-iter-indices#main",
     "@stdlib/ndarray-iter-rows": "github:stdlib-js/ndarray-iter-rows#main",
     "@stdlib/ndarray-iter-to-array-each": "github:stdlib-js/ndarray-iter-to-array-each#main",
     "@stdlib/utils-define-read-only-property": "^0.1.1"
   },
   "devDependencies": {
+    "@stdlib/array-base-copy-indexed": "^0.1.0",
     "@stdlib/array-base-zero-to": "^0.1.0",
     "@stdlib/array-base-zeros": "^0.1.1",
     "@stdlib/assert-has-own-property": "^0.1.1",
@@ -59,6 +61,7 @@
     "@stdlib/ndarray-array": "^0.1.0",
     "@stdlib/ndarray-base-assert-is-order": "^0.1.1",
     "@stdlib/ndarray-base-assert-is-read-only": "^0.1.1",
+    "@stdlib/ndarray-base-next-cartesian-index": "github:stdlib-js/ndarray-base-next-cartesian-index#main",
     "@stdlib/ndarray-base-numel": "^0.1.1",
     "@stdlib/ndarray-base-slice": "github:stdlib-js/ndarray-base-slice#main",
     "@stdlib/ndarray-slice": "github:stdlib-js/ndarray-slice#main",
