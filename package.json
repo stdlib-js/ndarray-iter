@@ -41,6 +41,7 @@
     "@stdlib/ndarray-iter-indices": "github:stdlib-js/ndarray-iter-indices#main",
     "@stdlib/ndarray-iter-rows": "github:stdlib-js/ndarray-iter-rows#main",
     "@stdlib/ndarray-iter-to-array-each": "github:stdlib-js/ndarray-iter-to-array-each#main",
+    "@stdlib/ndarray-iter-values": "github:stdlib-js/ndarray-iter-values#main",
     "@stdlib/utils-define-read-only-property": "^0.1.1"
   },
   "devDependencies": {
@@ -56,6 +57,7 @@
     "@stdlib/assert-is-ndarray-like": "^0.1.0",
     "@stdlib/assert-is-nonnegative-integer": "^0.1.0",
     "@stdlib/assert-is-nonnegative-integer-array": "^0.1.0",
+    "@stdlib/assert-is-number": "^0.1.1",
     "@stdlib/assert-is-plain-object": "^0.1.1",
     "@stdlib/bench": "^0.1.0",
     "@stdlib/ndarray-array": "^0.1.0",
