@@ -35,43 +35,30 @@ limitations under the License.
 
 > Multidimensional array iterators.
 
+<section class="installation">
 
+## Installation
+
+```bash
+npm install @stdlib/ndarray-iter
+```
+
+Alternatively,
+
+-   To load the package in a website via a `script` tag without installation and bundlers, use the [ES Module][es-module] available on the [`esm` branch][esm-url].
+-   If you are using Deno, visit the [`deno` branch][deno-url].
+-   For use in Observable, or in browser/node environments, use the [Universal Module Definition (UMD)][umd] build available on the [`umd` branch][umd-url].
+
+The [branches.md][branches-url] file summarizes the available branches and displays a diagram illustrating their relationships.
+
+</section>
 
 <section class="usage">
 
 ## Usage
 
-To use in Observable,
-
 ```javascript
-ns = require( 'https://cdn.jsdelivr.net/gh/stdlib-js/ndarray-iter@umd/browser.js' )
-```
-The previous example will load the latest bundled code from the umd branch. Alternatively, you may load a specific version by loading the file from one of the [tagged bundles](https://github.com/stdlib-js/ndarray-iter/tags). For example,
-
-```javascript
-ns = require( 'https://cdn.jsdelivr.net/gh/stdlib-js/ndarray-iter@v0.1.0-umd/browser.js' )
-```
-
-To vendor stdlib functionality and avoid installing dependency trees for Node.js, you can use the UMD server build:
-
-```javascript
-var ns = require( 'path/to/vendor/umd/ndarray-iter/index.js' )
-```
-
-To include the bundle in a webpage,
-
-```html
-<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/ndarray-iter@umd/browser.js"></script>
-```
-
-If no recognized module system is present, access bundle contents via the global scope:
-
-```html
-<script type="text/javascript">
-(function () {
-    window.ns;
-})();
-</script>
+var ns = require( '@stdlib/ndarray-iter' );
 ```
 
 #### ns
@@ -84,6 +71,17 @@ var o = ns;
 ```
 
 <!-- <toc pattern="*"> -->
+
+<div class="namespace-toc">
+
+-   <span class="signature">[`nditerColumns( x[, options] )`][@stdlib/ndarray/iter/columns]</span><span class="delimiter">: </span><span class="description">create an iterator which iterates over each column in a matrix (or stack of matrices).</span>
+-   <span class="signature">[`nditerEntries( x[, options] )`][@stdlib/ndarray/iter/entries]</span><span class="delimiter">: </span><span class="description">create an iterator which returns `[index, value]` pairs for each element in a provided `ndarray`.</span>
+-   <span class="signature">[`nditerIndices( shape[, options] )`][@stdlib/ndarray/iter/indices]</span><span class="delimiter">: </span><span class="description">create an iterator which returns indices for use indexing into an `ndarray` having a specified shape.</span>
+-   <span class="signature">[`nditerRows( x[, options] )`][@stdlib/ndarray/iter/rows]</span><span class="delimiter">: </span><span class="description">create an iterator which iterates over each row in a matrix (or stack of matrices).</span>
+-   <span class="signature">[`nditer2arrayEach( iterator )`][@stdlib/ndarray/iter/to-array-each]</span><span class="delimiter">: </span><span class="description">create an iterator which converts each iterated `ndarray` to a generic array.</span>
+-   <span class="signature">[`nditerValues( x[, options] )`][@stdlib/ndarray/iter/values]</span><span class="delimiter">: </span><span class="description">create an iterator which returns individual elements from a provided `ndarray`.</span>
+
+</div>
 
 <!-- </toc> -->
 
@@ -99,21 +97,11 @@ var o = ns;
 
 <!-- eslint no-undef: "error" -->
 
-```html
-<!DOCTYPE html>
-<html lang="en">
-<body>
-<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/utils-keys@umd/browser.js"></script>
-<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/ndarray-iter@umd/browser.js"></script>
-<script type="text/javascript">
-(function () {
+```javascript
+var objectKeys = require( '@stdlib/utils-keys' );
+var ns = require( '@stdlib/ndarray-iter' );
 
 console.log( objectKeys( ns ) );
-
-})();
-</script>
-</body>
-</html>
 ```
 
 </section>
@@ -167,8 +155,8 @@ Copyright &copy; 2016-2023. The Stdlib [Authors][stdlib-authors].
 [npm-image]: http://img.shields.io/npm/v/@stdlib/ndarray-iter.svg
 [npm-url]: https://npmjs.org/package/@stdlib/ndarray-iter
 
-[test-image]: https://github.com/stdlib-js/ndarray-iter/actions/workflows/test.yml/badge.svg?branch=v0.1.0
-[test-url]: https://github.com/stdlib-js/ndarray-iter/actions/workflows/test.yml?query=branch:v0.1.0
+[test-image]: https://github.com/stdlib-js/ndarray-iter/actions/workflows/test.yml/badge.svg?branch=main
+[test-url]: https://github.com/stdlib-js/ndarray-iter/actions/workflows/test.yml?query=branch:main
 
 [coverage-image]: https://img.shields.io/codecov/c/github/stdlib-js/ndarray-iter/main.svg
 [coverage-url]: https://codecov.io/github/stdlib-js/ndarray-iter?branch=main
@@ -196,6 +184,22 @@ Copyright &copy; 2016-2023. The Stdlib [Authors][stdlib-authors].
 [branches-url]: https://github.com/stdlib-js/ndarray-iter/blob/main/branches.md
 
 [stdlib-license]: https://raw.githubusercontent.com/stdlib-js/ndarray-iter/main/LICENSE
+
+<!-- <toc-links> -->
+
+[@stdlib/ndarray/iter/columns]: https://github.com/stdlib-js/ndarray-iter-columns
+
+[@stdlib/ndarray/iter/entries]: https://github.com/stdlib-js/ndarray-iter-entries
+
+[@stdlib/ndarray/iter/indices]: https://github.com/stdlib-js/ndarray-iter-indices
+
+[@stdlib/ndarray/iter/rows]: https://github.com/stdlib-js/ndarray-iter-rows
+
+[@stdlib/ndarray/iter/to-array-each]: https://github.com/stdlib-js/ndarray-iter-to-array-each
+
+[@stdlib/ndarray/iter/values]: https://github.com/stdlib-js/ndarray-iter-values
+
+<!-- </toc-links> -->
 
 </section>
 
