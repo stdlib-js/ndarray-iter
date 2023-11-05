@@ -40,6 +40,7 @@
     "@stdlib/ndarray-iter-entries": "^0.1.0",
     "@stdlib/ndarray-iter-indices": "^0.1.0",
     "@stdlib/ndarray-iter-matrices": "github:stdlib-js/ndarray-iter-matrices#main",
+    "@stdlib/ndarray-iter-row-entries": "github:stdlib-js/ndarray-iter-row-entries#main",
     "@stdlib/ndarray-iter-rows": "^0.1.0",
     "@stdlib/ndarray-iter-to-array-each": "^0.1.0",
     "@stdlib/ndarray-iter-values": "^0.1.0",
