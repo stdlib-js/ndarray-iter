@@ -36,11 +36,13 @@
     "url": "https://github.com/stdlib-js/stdlib/issues"
   },
   "dependencies": {
+    "@stdlib/ndarray-iter-column-entries": "github:stdlib-js/ndarray-iter-column-entries#main",
     "@stdlib/ndarray-iter-columns": "^0.1.0",
     "@stdlib/ndarray-iter-entries": "^0.1.0",
     "@stdlib/ndarray-iter-indices": "^0.1.0",
-    "@stdlib/ndarray-iter-matrices": "github:stdlib-js/ndarray-iter-matrices#main",
-    "@stdlib/ndarray-iter-row-entries": "github:stdlib-js/ndarray-iter-row-entries#main",
+    "@stdlib/ndarray-iter-matrices": "^0.1.0",
+    "@stdlib/ndarray-iter-matrix-entries": "github:stdlib-js/ndarray-iter-matrix-entries#main",
+    "@stdlib/ndarray-iter-row-entries": "^0.1.0",
     "@stdlib/ndarray-iter-rows": "^0.1.0",
     "@stdlib/ndarray-iter-to-array-each": "^0.1.0",
     "@stdlib/ndarray-iter-values": "^0.1.0",
