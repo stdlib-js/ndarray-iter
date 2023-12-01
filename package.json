@@ -36,12 +36,12 @@
     "url": "https://github.com/stdlib-js/stdlib/issues"
   },
   "dependencies": {
-    "@stdlib/ndarray-iter-column-entries": "github:stdlib-js/ndarray-iter-column-entries#main",
+    "@stdlib/ndarray-iter-column-entries": "^0.1.0",
     "@stdlib/ndarray-iter-columns": "^0.1.0",
     "@stdlib/ndarray-iter-entries": "^0.1.0",
     "@stdlib/ndarray-iter-indices": "^0.1.0",
     "@stdlib/ndarray-iter-matrices": "^0.1.0",
-    "@stdlib/ndarray-iter-matrix-entries": "github:stdlib-js/ndarray-iter-matrix-entries#main",
+    "@stdlib/ndarray-iter-matrix-entries": "^0.1.0",
     "@stdlib/ndarray-iter-row-entries": "^0.1.0",
     "@stdlib/ndarray-iter-rows": "^0.1.0",
     "@stdlib/ndarray-iter-to-array-each": "^0.1.0",
@@ -62,7 +62,7 @@
     "@stdlib/assert-is-nonnegative-integer-array": "^0.1.0",
     "@stdlib/assert-is-number": "^0.1.1",
     "@stdlib/assert-is-plain-object": "^0.1.1",
-    "@stdlib/bench": "^0.2.0",
+    "@stdlib/bench": "^0.2.1",
     "@stdlib/ndarray-array": "^0.1.0",
     "@stdlib/ndarray-base-assert-is-order": "^0.1.1",
     "@stdlib/ndarray-base-assert-is-read-only": "^0.1.1",
