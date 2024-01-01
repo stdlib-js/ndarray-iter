@@ -35,38 +35,30 @@ limitations under the License.
 
 > Multidimensional array iterators.
 
+<section class="installation">
 
+## Installation
+
+```bash
+npm install @stdlib/ndarray-iter
+```
+
+Alternatively,
+
+-   To load the package in a website via a `script` tag without installation and bundlers, use the [ES Module][es-module] available on the [`esm` branch][esm-url].
+-   If you are using Deno, visit the [`deno` branch][deno-url].
+-   For use in Observable, or in browser/node environments, use the [Universal Module Definition (UMD)][umd] build available on the [`umd` branch][umd-url].
+
+The [branches.md][branches-url] file summarizes the available branches and displays a diagram illustrating their relationships.
+
+</section>
 
 <section class="usage">
 
 ## Usage
 
-To use in Observable,
-
 ```javascript
-ns = require( 'https://cdn.jsdelivr.net/gh/stdlib-js/ndarray-iter@umd/browser.js' )
-```
-
-To vendor stdlib functionality and avoid installing dependency trees for Node.js, you can use the UMD server build:
-
-```javascript
-var ns = require( 'path/to/vendor/umd/ndarray-iter/index.js' )
-```
-
-To include the bundle in a webpage,
-
-```html
-<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/ndarray-iter@umd/browser.js"></script>
-```
-
-If no recognized module system is present, access bundle contents via the global scope:
-
-```html
-<script type="text/javascript">
-(function () {
-    window.ns;
-})();
-</script>
+var ns = require( '@stdlib/ndarray-iter' );
 ```
 
 #### ns
@@ -109,21 +101,11 @@ var o = ns;
 
 <!-- eslint no-undef: "error" -->
 
-```html
-<!DOCTYPE html>
-<html lang="en">
-<body>
-<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/utils-keys@umd/browser.js"></script>
-<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/ndarray-iter@umd/browser.js"></script>
-<script type="text/javascript">
-(function () {
+```javascript
+var objectKeys = require( '@stdlib/utils-keys' );
+var ns = require( '@stdlib/ndarray-iter' );
 
 console.log( objectKeys( ns ) );
-
-})();
-</script>
-</body>
-</html>
 ```
 
 </section>
@@ -164,7 +146,7 @@ See [LICENSE][stdlib-license].
 
 ## Copyright
 
-Copyright &copy; 2016-2023. The Stdlib [Authors][stdlib-authors].
+Copyright &copy; 2016-2024. The Stdlib [Authors][stdlib-authors].
 
 </section>
 
@@ -209,25 +191,25 @@ Copyright &copy; 2016-2023. The Stdlib [Authors][stdlib-authors].
 
 <!-- <toc-links> -->
 
-[@stdlib/ndarray/iter/column-entries]: https://github.com/stdlib-js/ndarray-iter-column-entries/tree/umd
+[@stdlib/ndarray/iter/column-entries]: https://github.com/stdlib-js/ndarray-iter-column-entries
 
-[@stdlib/ndarray/iter/columns]: https://github.com/stdlib-js/ndarray-iter-columns/tree/umd
+[@stdlib/ndarray/iter/columns]: https://github.com/stdlib-js/ndarray-iter-columns
 
-[@stdlib/ndarray/iter/entries]: https://github.com/stdlib-js/ndarray-iter-entries/tree/umd
+[@stdlib/ndarray/iter/entries]: https://github.com/stdlib-js/ndarray-iter-entries
 
-[@stdlib/ndarray/iter/indices]: https://github.com/stdlib-js/ndarray-iter-indices/tree/umd
+[@stdlib/ndarray/iter/indices]: https://github.com/stdlib-js/ndarray-iter-indices
 
-[@stdlib/ndarray/iter/matrices]: https://github.com/stdlib-js/ndarray-iter-matrices/tree/umd
+[@stdlib/ndarray/iter/matrices]: https://github.com/stdlib-js/ndarray-iter-matrices
 
-[@stdlib/ndarray/iter/matrix-entries]: https://github.com/stdlib-js/ndarray-iter-matrix-entries/tree/umd
+[@stdlib/ndarray/iter/matrix-entries]: https://github.com/stdlib-js/ndarray-iter-matrix-entries
 
-[@stdlib/ndarray/iter/row-entries]: https://github.com/stdlib-js/ndarray-iter-row-entries/tree/umd
+[@stdlib/ndarray/iter/row-entries]: https://github.com/stdlib-js/ndarray-iter-row-entries
 
-[@stdlib/ndarray/iter/rows]: https://github.com/stdlib-js/ndarray-iter-rows/tree/umd
+[@stdlib/ndarray/iter/rows]: https://github.com/stdlib-js/ndarray-iter-rows
 
-[@stdlib/ndarray/iter/to-array-each]: https://github.com/stdlib-js/ndarray-iter-to-array-each/tree/umd
+[@stdlib/ndarray/iter/to-array-each]: https://github.com/stdlib-js/ndarray-iter-to-array-each
 
-[@stdlib/ndarray/iter/values]: https://github.com/stdlib-js/ndarray-iter-values/tree/umd
+[@stdlib/ndarray/iter/values]: https://github.com/stdlib-js/ndarray-iter-values
 
 <!-- </toc-links> -->
 
