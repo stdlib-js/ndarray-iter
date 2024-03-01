@@ -35,25 +35,32 @@ limitations under the License.
 
 > Multidimensional array iterators.
 
+<section class="installation">
 
+## Installation
+
+```bash
+npm install @stdlib/ndarray-iter
+```
+
+Alternatively,
+
+-   To load the package in a website via a `script` tag without installation and bundlers, use the [ES Module][es-module] available on the [`esm`][esm-url] branch (see [README][esm-readme]).
+-   If you are using Deno, visit the [`deno`][deno-url] branch (see [README][deno-readme] for usage intructions).
+-   For use in Observable, or in browser/node environments, use the [Universal Module Definition (UMD)][umd] build available on the [`umd`][umd-url] branch (see [README][umd-readme]).
+
+The [branches.md][branches-url] file summarizes the available branches and displays a diagram illustrating their relationships.
+
+To view installation and usage instructions specific to each branch build, be sure to explicitly navigate to the respective README files on each branch, as linked to above.
+
+</section>
 
 <section class="usage">
 
 ## Usage
 
 ```javascript
-import ns from 'https://cdn.jsdelivr.net/gh/stdlib-js/ndarray-iter@esm/index.mjs';
-```
-The previous example will load the latest bundled code from the esm branch. Alternatively, you may load a specific version by loading the file from one of the [tagged bundles](https://github.com/stdlib-js/ndarray-iter/tags). For example,
-
-```javascript
-import ns from 'https://cdn.jsdelivr.net/gh/stdlib-js/ndarray-iter@v0.2.1-esm/index.mjs';
-```
-
-You can also import the following named exports from the package:
-
-```javascript
-import { nditer2arrayEach, nditerColumnEntries, nditerColumns, nditerEntries, nditerIndices, nditerMatrices, nditerMatrixEntries, nditerRowEntries, nditerRows, nditerValues } from 'https://cdn.jsdelivr.net/gh/stdlib-js/ndarray-iter@esm/index.mjs';
+var ns = require( '@stdlib/ndarray-iter' );
 ```
 
 #### ns
@@ -96,20 +103,11 @@ var o = ns;
 
 <!-- eslint no-undef: "error" -->
 
-```html
-<!DOCTYPE html>
-<html lang="en">
-<body>
-<script type="module">
-
-import objectKeys from 'https://cdn.jsdelivr.net/gh/stdlib-js/utils-keys@esm/index.mjs';
-import ns from 'https://cdn.jsdelivr.net/gh/stdlib-js/ndarray-iter@esm/index.mjs';
+```javascript
+var objectKeys = require( '@stdlib/utils-keys' );
+var ns = require( '@stdlib/ndarray-iter' );
 
 console.log( objectKeys( ns ) );
-
-</script>
-</body>
-</html>
 ```
 
 </section>
@@ -133,7 +131,7 @@ console.log( objectKeys( ns ) );
 
 ## Notice
 
-This package is part of [stdlib][stdlib], a standard library with an emphasis on numerical and scientific computing. The library provides a collection of robust, high performance libraries for mathematics, statistics, streams, utilities, and more.
+This package is part of [stdlib][stdlib], a standard library for JavaScript and Node.js, with an emphasis on numerical and scientific computing. The library provides a collection of robust, high performance libraries for mathematics, statistics, streams, utilities, and more.
 
 For more information on the project, filing bug reports and feature requests, and guidance on how to develop [stdlib][stdlib], see the main project [repository][stdlib].
 
@@ -163,8 +161,8 @@ Copyright &copy; 2016-2024. The Stdlib [Authors][stdlib-authors].
 [npm-image]: http://img.shields.io/npm/v/@stdlib/ndarray-iter.svg
 [npm-url]: https://npmjs.org/package/@stdlib/ndarray-iter
 
-[test-image]: https://github.com/stdlib-js/ndarray-iter/actions/workflows/test.yml/badge.svg?branch=v0.2.1
-[test-url]: https://github.com/stdlib-js/ndarray-iter/actions/workflows/test.yml?query=branch:v0.2.1
+[test-image]: https://github.com/stdlib-js/ndarray-iter/actions/workflows/test.yml/badge.svg?branch=main
+[test-url]: https://github.com/stdlib-js/ndarray-iter/actions/workflows/test.yml?query=branch:main
 
 [coverage-image]: https://img.shields.io/codecov/c/github/stdlib-js/ndarray-iter/main.svg
 [coverage-url]: https://codecov.io/github/stdlib-js/ndarray-iter?branch=main
@@ -198,25 +196,25 @@ Copyright &copy; 2016-2024. The Stdlib [Authors][stdlib-authors].
 
 <!-- <toc-links> -->
 
-[@stdlib/ndarray/iter/column-entries]: https://github.com/stdlib-js/ndarray-iter-column-entries/tree/esm
+[@stdlib/ndarray/iter/column-entries]: https://github.com/stdlib-js/ndarray-iter-column-entries
 
-[@stdlib/ndarray/iter/columns]: https://github.com/stdlib-js/ndarray-iter-columns/tree/esm
+[@stdlib/ndarray/iter/columns]: https://github.com/stdlib-js/ndarray-iter-columns
 
-[@stdlib/ndarray/iter/entries]: https://github.com/stdlib-js/ndarray-iter-entries/tree/esm
+[@stdlib/ndarray/iter/entries]: https://github.com/stdlib-js/ndarray-iter-entries
 
-[@stdlib/ndarray/iter/indices]: https://github.com/stdlib-js/ndarray-iter-indices/tree/esm
+[@stdlib/ndarray/iter/indices]: https://github.com/stdlib-js/ndarray-iter-indices
 
-[@stdlib/ndarray/iter/matrices]: https://github.com/stdlib-js/ndarray-iter-matrices/tree/esm
+[@stdlib/ndarray/iter/matrices]: https://github.com/stdlib-js/ndarray-iter-matrices
 
-[@stdlib/ndarray/iter/matrix-entries]: https://github.com/stdlib-js/ndarray-iter-matrix-entries/tree/esm
+[@stdlib/ndarray/iter/matrix-entries]: https://github.com/stdlib-js/ndarray-iter-matrix-entries
 
-[@stdlib/ndarray/iter/row-entries]: https://github.com/stdlib-js/ndarray-iter-row-entries/tree/esm
+[@stdlib/ndarray/iter/row-entries]: https://github.com/stdlib-js/ndarray-iter-row-entries
 
-[@stdlib/ndarray/iter/rows]: https://github.com/stdlib-js/ndarray-iter-rows/tree/esm
+[@stdlib/ndarray/iter/rows]: https://github.com/stdlib-js/ndarray-iter-rows
 
-[@stdlib/ndarray/iter/to-array-each]: https://github.com/stdlib-js/ndarray-iter-to-array-each/tree/esm
+[@stdlib/ndarray/iter/to-array-each]: https://github.com/stdlib-js/ndarray-iter-to-array-each
 
-[@stdlib/ndarray/iter/values]: https://github.com/stdlib-js/ndarray-iter-values/tree/esm
+[@stdlib/ndarray/iter/values]: https://github.com/stdlib-js/ndarray-iter-values
 
 <!-- </toc-links> -->
 
