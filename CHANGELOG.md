@@ -20,9 +20,32 @@
 
 ##### Features
 
+-   [`6576f4f`](https://github.com/stdlib-js/stdlib/commit/6576f4f82a2f47b2c0ffa35731efcb15a22e158a) - add `nditerInterleaveSubarrays`
 -   [`4289f78`](https://github.com/stdlib-js/stdlib/commit/4289f78da1d67c5671151413b4673ec32ede26c2) - add `nditerStacks` to namespace
 -   [`873b085`](https://github.com/stdlib-js/stdlib/commit/873b085ae0183426f3e8e831a50a42e2df3ba13d) - add `nditerSubarrays` to namespace
 -   [`46aec25`](https://github.com/stdlib-js/stdlib/commit/46aec25aac5d4a0c8a3fd7b719dd6a080e59beb8) - add `nditerSelectDimension` to namespace
+
+</section>
+
+<!-- /.features -->
+
+</details>
+
+</section>
+
+<!-- /.package -->
+
+<section class="package" id="ndarray-iter-interleave-subarrays-unreleased">
+
+#### [@stdlib/ndarray/iter/interleave-subarrays](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/ndarray/iter/interleave-subarrays)
+
+<details>
+
+<section class="features">
+
+##### Features
+
+-   [`25e87e4`](https://github.com/stdlib-js/stdlib/commit/25e87e46c052b2fb2bbd026a71a5ee10f4c50d3f) - add `ndarray/iter/interleave-subarrays`
 
 </section>
 
@@ -122,6 +145,8 @@ A total of 1 person contributed to this release. Thank you to this contributor:
 
 <details>
 
+-   [`6576f4f`](https://github.com/stdlib-js/stdlib/commit/6576f4f82a2f47b2c0ffa35731efcb15a22e158a) - **feat:** add `nditerInterleaveSubarrays` _(by Athan Reines)_
+-   [`25e87e4`](https://github.com/stdlib-js/stdlib/commit/25e87e46c052b2fb2bbd026a71a5ee10f4c50d3f) - **feat:** add `ndarray/iter/interleave-subarrays` _(by Athan Reines)_
 -   [`4289f78`](https://github.com/stdlib-js/stdlib/commit/4289f78da1d67c5671151413b4673ec32ede26c2) - **feat:** add `nditerStacks` to namespace _(by Athan Reines)_
 -   [`d256bd9`](https://github.com/stdlib-js/stdlib/commit/d256bd93e03a245d45b732ba4d8ab60e47d378d6) - **feat:** add `ndarray/iter/stacks` _(by Athan Reines)_
 -   [`7a4424b`](https://github.com/stdlib-js/stdlib/commit/7a4424bd81e212e9c7534520213b696c0c64c644) - **docs:** fix comment _(by Athan Reines)_
@@ -143,27 +168,17 @@ A total of 1 person contributed to this release. Thank you to this contributor:
 
 <!-- /.release -->
 
+<section class="release" id="v0.2.1">
+
 ## 0.2.1 (2024-02-25)
 
-<section class="packages">
-
-### Packages
+No changes reported for this release.
 
 </section>
 
-<!-- /.packages -->
+<!-- /.release -->
 
-<section class="commits">
-
-### Commits
-
-<details>
-
-</details>
-
-</section>
-
-<!-- /.commits -->
+<section class="release" id="v0.2.0">
 
 ## 0.2.0 (2024-02-15)
 
@@ -215,42 +230,6 @@ A total of 1 person contributed to this release. Thank you to this contributor:
 <!-- /.features -->
 
 </details>
-
-</section>
-
-<!-- /.package -->
-
-<section class="package" id="ndarray-iter-columns-v0.2.0">
-
-#### [@stdlib/ndarray/iter/columns](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/ndarray/iter/columns)
-
-<details>
-
-No changes reported for this release.</details>
-
-</section>
-
-<!-- /.package -->
-
-<section class="package" id="ndarray-iter-entries-v0.2.0">
-
-#### [@stdlib/ndarray/iter/entries](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/ndarray/iter/entries)
-
-<details>
-
-No changes reported for this release.</details>
-
-</section>
-
-<!-- /.package -->
-
-<section class="package" id="ndarray-iter-indices-v0.2.0">
-
-#### [@stdlib/ndarray/iter/indices](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/ndarray/iter/indices)
-
-<details>
-
-No changes reported for this release.</details>
 
 </section>
 
@@ -322,42 +301,6 @@ No changes reported for this release.</details>
 
 <!-- /.package -->
 
-<section class="package" id="ndarray-iter-rows-v0.2.0">
-
-#### [@stdlib/ndarray/iter/rows](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/ndarray/iter/rows)
-
-<details>
-
-No changes reported for this release.</details>
-
-</section>
-
-<!-- /.package -->
-
-<section class="package" id="ndarray-iter-to-array-each-v0.2.0">
-
-#### [@stdlib/ndarray/iter/to-array-each](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/ndarray/iter/to-array-each)
-
-<details>
-
-No changes reported for this release.</details>
-
-</section>
-
-<!-- /.package -->
-
-<section class="package" id="ndarray-iter-values-v0.2.0">
-
-#### [@stdlib/ndarray/iter/values](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/ndarray/iter/values)
-
-<details>
-
-No changes reported for this release.</details>
-
-</section>
-
-<!-- /.package -->
-
 </section>
 
 <!-- /.packages -->
@@ -416,6 +359,12 @@ A total of 2 people contributed to this release. Thank you to the following cont
 </section>
 
 <!-- /.commits -->
+
+</section>
+
+<!-- /.release -->
+
+<section class="release" id="v0.1.0">
 
 ## 0.1.0 (2023-10-14)
 
@@ -663,4 +612,8 @@ A total of 1 person contributed to this release. Thank you to this contributor:
 </section>
 
 <!-- /.commits -->
+
+</section>
+
+<!-- /.release -->
 
