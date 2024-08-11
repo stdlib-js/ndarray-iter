@@ -20,6 +20,7 @@
 
 ##### Features
 
+-   [`873b085`](https://github.com/stdlib-js/stdlib/commit/873b085ae0183426f3e8e831a50a42e2df3ba13d) - add `nditerSubarrays` to namespace
 -   [`46aec25`](https://github.com/stdlib-js/stdlib/commit/46aec25aac5d4a0c8a3fd7b719dd6a080e59beb8) - add `nditerSelectDimension` to namespace
 
 </section>
@@ -54,6 +55,28 @@
 
 <!-- /.package -->
 
+<section class="package" id="ndarray-iter-subarrays-unreleased">
+
+#### [@stdlib/ndarray/iter/subarrays](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/ndarray/iter/subarrays)
+
+<details>
+
+<section class="features">
+
+##### Features
+
+-   [`fd9a5c2`](https://github.com/stdlib-js/stdlib/commit/fd9a5c2e29508ab5b393e2273ddb7463be6affb3) - add `ndarray/iter/subarrays`
+
+</section>
+
+<!-- /.features -->
+
+</details>
+
+</section>
+
+<!-- /.package -->
+
 </section>
 
 <!-- /.packages -->
@@ -76,6 +99,8 @@ A total of 1 person contributed to this release. Thank you to this contributor:
 
 <details>
 
+-   [`873b085`](https://github.com/stdlib-js/stdlib/commit/873b085ae0183426f3e8e831a50a42e2df3ba13d) - **feat:** add `nditerSubarrays` to namespace _(by Athan Reines)_
+-   [`fd9a5c2`](https://github.com/stdlib-js/stdlib/commit/fd9a5c2e29508ab5b393e2273ddb7463be6affb3) - **feat:** add `ndarray/iter/subarrays` _(by Athan Reines)_
 -   [`46aec25`](https://github.com/stdlib-js/stdlib/commit/46aec25aac5d4a0c8a3fd7b719dd6a080e59beb8) - **feat:** add `nditerSelectDimension` to namespace _(by Athan Reines)_
 -   [`6dce19b`](https://github.com/stdlib-js/stdlib/commit/6dce19b2a2dfae6159257dab0c52a8421e0861d2) - **feat:** add `ndarray/iter/select-dimension` _(by Athan Reines)_
 -   [`4ec7a03`](https://github.com/stdlib-js/stdlib/commit/4ec7a031214836b442e5bce57b57b20e166ef8a4) - **refactor:** improve type specificity _(by Athan Reines)_
