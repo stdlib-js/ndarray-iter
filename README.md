@@ -35,20 +35,32 @@ limitations under the License.
 
 > Multidimensional array iterators.
 
+<section class="installation">
 
+## Installation
+
+```bash
+npm install @stdlib/ndarray-iter
+```
+
+Alternatively,
+
+-   To load the package in a website via a `script` tag without installation and bundlers, use the [ES Module][es-module] available on the [`esm`][esm-url] branch (see [README][esm-readme]).
+-   If you are using Deno, visit the [`deno`][deno-url] branch (see [README][deno-readme] for usage intructions).
+-   For use in Observable, or in browser/node environments, use the [Universal Module Definition (UMD)][umd] build available on the [`umd`][umd-url] branch (see [README][umd-readme]).
+
+The [branches.md][branches-url] file summarizes the available branches and displays a diagram illustrating their relationships.
+
+To view installation and usage instructions specific to each branch build, be sure to explicitly navigate to the respective README files on each branch, as linked to above.
+
+</section>
 
 <section class="usage">
 
 ## Usage
 
 ```javascript
-import ns from 'https://cdn.jsdelivr.net/gh/stdlib-js/ndarray-iter@esm/index.mjs';
-```
-
-You can also import the following named exports from the package:
-
-```javascript
-import { nditer2arrayEach, nditerColumnEntries, nditerColumns, nditerEntries, nditerIndices, nditerInterleaveSubarrays, nditerMatrices, nditerMatrixEntries, nditerRowEntries, nditerRows, nditerSelectDimension, nditerStacks, nditerSubarrays, nditerValues } from 'https://cdn.jsdelivr.net/gh/stdlib-js/ndarray-iter@esm/index.mjs';
+var ns = require( '@stdlib/ndarray-iter' );
 ```
 
 #### ns
@@ -68,10 +80,14 @@ var o = ns;
 -   <span class="signature">[`nditerColumns( x[, options] )`][@stdlib/ndarray/iter/columns]</span><span class="delimiter">: </span><span class="description">create an iterator which iterates over each column in a matrix (or stack of matrices).</span>
 -   <span class="signature">[`nditerEntries( x[, options] )`][@stdlib/ndarray/iter/entries]</span><span class="delimiter">: </span><span class="description">create an iterator which returns `[index, value]` pairs for each element in a provided `ndarray`.</span>
 -   <span class="signature">[`nditerIndices( shape[, options] )`][@stdlib/ndarray/iter/indices]</span><span class="delimiter">: </span><span class="description">create an iterator which returns indices for use indexing into an `ndarray` having a specified shape.</span>
+-   <span class="signature">[`nditerInterleaveSubarrays( arr, ndims )`][@stdlib/ndarray/iter/interleave-subarrays]</span><span class="delimiter">: </span><span class="description">create an iterator which iterates over interleaved subarrays.</span>
 -   <span class="signature">[`nditerMatrices( x[, options] )`][@stdlib/ndarray/iter/matrices]</span><span class="delimiter">: </span><span class="description">create an iterator which iterates over each matrix in a stack of matrices.</span>
 -   <span class="signature">[`nditerMatrixEntries( x[, options] )`][@stdlib/ndarray/iter/matrix-entries]</span><span class="delimiter">: </span><span class="description">create an iterator which returns `[index, matrix]` pairs for each matrix in a stack of matrices.</span>
 -   <span class="signature">[`nditerRowEntries( x[, options] )`][@stdlib/ndarray/iter/row-entries]</span><span class="delimiter">: </span><span class="description">create an iterator which returns `[index, row]` pairs for each row in a matrix (or stack of matrices).</span>
 -   <span class="signature">[`nditerRows( x[, options] )`][@stdlib/ndarray/iter/rows]</span><span class="delimiter">: </span><span class="description">create an iterator which iterates over each row in a matrix (or stack of matrices).</span>
+-   <span class="signature">[`nditerSelectDimension( x, dim[, options] )`][@stdlib/ndarray/iter/select-dimension]</span><span class="delimiter">: </span><span class="description">create an iterator which iterates over each view along a specified dimension.</span>
+-   <span class="signature">[`nditerStacks( x, dims[, options] )`][@stdlib/ndarray/iter/stacks]</span><span class="delimiter">: </span><span class="description">create an iterator which iterates over each subarray in a stack of subarrays according to a list of specified stack dimensions.</span>
+-   <span class="signature">[`nditerSubarrays( x, ndims[, options] )`][@stdlib/ndarray/iter/subarrays]</span><span class="delimiter">: </span><span class="description">create an iterator which iterates over each subarray in a stack of subarrays.</span>
 -   <span class="signature">[`nditer2arrayEach( iterator )`][@stdlib/ndarray/iter/to-array-each]</span><span class="delimiter">: </span><span class="description">create an iterator which converts each iterated `ndarray` to a generic array.</span>
 -   <span class="signature">[`nditerValues( x[, options] )`][@stdlib/ndarray/iter/values]</span><span class="delimiter">: </span><span class="description">create an iterator which returns individual elements from a provided `ndarray`.</span>
 
@@ -91,20 +107,11 @@ var o = ns;
 
 <!-- eslint no-undef: "error" -->
 
-```html
-<!DOCTYPE html>
-<html lang="en">
-<body>
-<script type="module">
-
-import objectKeys from 'https://cdn.jsdelivr.net/gh/stdlib-js/utils-keys@esm/index.mjs';
-import ns from 'https://cdn.jsdelivr.net/gh/stdlib-js/ndarray-iter@esm/index.mjs';
+```javascript
+var objectKeys = require( '@stdlib/utils-keys' );
+var ns = require( '@stdlib/ndarray-iter' );
 
 console.log( objectKeys( ns ) );
-
-</script>
-</body>
-</html>
 ```
 
 </section>
@@ -128,7 +135,7 @@ console.log( objectKeys( ns ) );
 
 ## Notice
 
-This package is part of [stdlib][stdlib], a standard library with an emphasis on numerical and scientific computing. The library provides a collection of robust, high performance libraries for mathematics, statistics, streams, utilities, and more.
+This package is part of [stdlib][stdlib], a standard library for JavaScript and Node.js, with an emphasis on numerical and scientific computing. The library provides a collection of robust, high performance libraries for mathematics, statistics, streams, utilities, and more.
 
 For more information on the project, filing bug reports and feature requests, and guidance on how to develop [stdlib][stdlib], see the main project [repository][stdlib].
 
@@ -193,25 +200,33 @@ Copyright &copy; 2016-2024. The Stdlib [Authors][stdlib-authors].
 
 <!-- <toc-links> -->
 
-[@stdlib/ndarray/iter/column-entries]: https://github.com/stdlib-js/ndarray-iter-column-entries/tree/esm
+[@stdlib/ndarray/iter/column-entries]: https://github.com/stdlib-js/ndarray-iter-column-entries
 
-[@stdlib/ndarray/iter/columns]: https://github.com/stdlib-js/ndarray-iter-columns/tree/esm
+[@stdlib/ndarray/iter/columns]: https://github.com/stdlib-js/ndarray-iter-columns
 
-[@stdlib/ndarray/iter/entries]: https://github.com/stdlib-js/ndarray-iter-entries/tree/esm
+[@stdlib/ndarray/iter/entries]: https://github.com/stdlib-js/ndarray-iter-entries
 
-[@stdlib/ndarray/iter/indices]: https://github.com/stdlib-js/ndarray-iter-indices/tree/esm
+[@stdlib/ndarray/iter/indices]: https://github.com/stdlib-js/ndarray-iter-indices
 
-[@stdlib/ndarray/iter/matrices]: https://github.com/stdlib-js/ndarray-iter-matrices/tree/esm
+[@stdlib/ndarray/iter/interleave-subarrays]: https://github.com/stdlib-js/ndarray-iter-interleave-subarrays
 
-[@stdlib/ndarray/iter/matrix-entries]: https://github.com/stdlib-js/ndarray-iter-matrix-entries/tree/esm
+[@stdlib/ndarray/iter/matrices]: https://github.com/stdlib-js/ndarray-iter-matrices
 
-[@stdlib/ndarray/iter/row-entries]: https://github.com/stdlib-js/ndarray-iter-row-entries/tree/esm
+[@stdlib/ndarray/iter/matrix-entries]: https://github.com/stdlib-js/ndarray-iter-matrix-entries
 
-[@stdlib/ndarray/iter/rows]: https://github.com/stdlib-js/ndarray-iter-rows/tree/esm
+[@stdlib/ndarray/iter/row-entries]: https://github.com/stdlib-js/ndarray-iter-row-entries
 
-[@stdlib/ndarray/iter/to-array-each]: https://github.com/stdlib-js/ndarray-iter-to-array-each/tree/esm
+[@stdlib/ndarray/iter/rows]: https://github.com/stdlib-js/ndarray-iter-rows
 
-[@stdlib/ndarray/iter/values]: https://github.com/stdlib-js/ndarray-iter-values/tree/esm
+[@stdlib/ndarray/iter/select-dimension]: https://github.com/stdlib-js/ndarray-iter-select-dimension
+
+[@stdlib/ndarray/iter/stacks]: https://github.com/stdlib-js/ndarray-iter-stacks
+
+[@stdlib/ndarray/iter/subarrays]: https://github.com/stdlib-js/ndarray-iter-subarrays
+
+[@stdlib/ndarray/iter/to-array-each]: https://github.com/stdlib-js/ndarray-iter-to-array-each
+
+[@stdlib/ndarray/iter/values]: https://github.com/stdlib-js/ndarray-iter-values
 
 <!-- </toc-links> -->
 
