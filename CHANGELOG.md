@@ -2,209 +2,40 @@
 
 > Package changelog.
 
-<section class="release" id="unreleased">
+<section class="release" id="v0.3.0">
 
-## Unreleased (2024-11-20)
-
-<section class="packages">
-
-### Packages
-
-<section class="package" id="ndarray-iter-unreleased">
-
-#### [@stdlib/ndarray/iter](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/ndarray/iter)
-
-<details>
+## 0.3.0 (2026-01-31)
 
 <section class="features">
 
-##### Features
+### Features
 
+-   [`3590e0f`](https://github.com/stdlib-js/stdlib/commit/3590e0f954650d8129ca31cd2cbf3c6c3cfc097f) - update `ndarray/iter` TypeScript declarations
 -   [`8b1548f`](https://github.com/stdlib-js/stdlib/commit/8b1548fb45c1ff131f5edac20cb984344a2d28ec) - update namespace TypeScript declarations [(#3190)](https://github.com/stdlib-js/stdlib/pull/3190)
 -   [`6576f4f`](https://github.com/stdlib-js/stdlib/commit/6576f4f82a2f47b2c0ffa35731efcb15a22e158a) - add `nditerInterleaveSubarrays`
--   [`4289f78`](https://github.com/stdlib-js/stdlib/commit/4289f78da1d67c5671151413b4673ec32ede26c2) - add `nditerStacks` to namespace
--   [`873b085`](https://github.com/stdlib-js/stdlib/commit/873b085ae0183426f3e8e831a50a42e2df3ba13d) - add `nditerSubarrays` to namespace
--   [`46aec25`](https://github.com/stdlib-js/stdlib/commit/46aec25aac5d4a0c8a3fd7b719dd6a080e59beb8) - add `nditerSelectDimension` to namespace
-
-</section>
-
-<!-- /.features -->
-
-<section class="breaking-changes">
-
-##### BREAKING CHANGES
-
--   [`8b1548f`](https://github.com/stdlib-js/stdlib/commit/8b1548fb45c1ff131f5edac20cb984344a2d28ec): update namespace declarations
-
-    -   To migrate, users should consult the corresponding packages containing the respective implementations to determine what is breaking. The primary breakages come from the `blas/*` namespace, where we recently refactored how top-level BLAS APIs operate on input arguments.
-
-</section>
-
-<!-- /.breaking-changes -->
-
-</details>
-
-</section>
-
-<!-- /.package -->
-
-<section class="package" id="ndarray-iter-column-entries-unreleased">
-
-#### [@stdlib/ndarray/iter/column-entries](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/ndarray/iter/column-entries)
-
-<details>
-
-<section class="bug-fixes">
-
-##### Bug Fixes
-
--   [`7f368f6`](https://github.com/stdlib-js/stdlib/commit/7f368f6c3f4cea444a304a62616cea36a5f143eb) - remove unused imports from TS declaration file
-
-</section>
-
-<!-- /.bug-fixes -->
-
-</details>
-
-</section>
-
-<!-- /.package -->
-
-<section class="package" id="ndarray-iter-interleave-subarrays-unreleased">
-
-#### [@stdlib/ndarray/iter/interleave-subarrays](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/ndarray/iter/interleave-subarrays)
-
-<details>
-
-<section class="features">
-
-##### Features
-
 -   [`25e87e4`](https://github.com/stdlib-js/stdlib/commit/25e87e46c052b2fb2bbd026a71a5ee10f4c50d3f) - add `ndarray/iter/interleave-subarrays`
-
-</section>
-
-<!-- /.features -->
-
-</details>
-
-</section>
-
-<!-- /.package -->
-
-<section class="package" id="ndarray-iter-matrix-entries-unreleased">
-
-#### [@stdlib/ndarray/iter/matrix-entries](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/ndarray/iter/matrix-entries)
-
-<details>
-
-<section class="bug-fixes">
-
-##### Bug Fixes
-
--   [`7f368f6`](https://github.com/stdlib-js/stdlib/commit/7f368f6c3f4cea444a304a62616cea36a5f143eb) - remove unused imports from TS declaration file
-
-</section>
-
-<!-- /.bug-fixes -->
-
-</details>
-
-</section>
-
-<!-- /.package -->
-
-<section class="package" id="ndarray-iter-row-entries-unreleased">
-
-#### [@stdlib/ndarray/iter/row-entries](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/ndarray/iter/row-entries)
-
-<details>
-
-<section class="bug-fixes">
-
-##### Bug Fixes
-
--   [`7f368f6`](https://github.com/stdlib-js/stdlib/commit/7f368f6c3f4cea444a304a62616cea36a5f143eb) - remove unused imports from TS declaration file
-
-</section>
-
-<!-- /.bug-fixes -->
-
-</details>
-
-</section>
-
-<!-- /.package -->
-
-<section class="package" id="ndarray-iter-select-dimension-unreleased">
-
-#### [@stdlib/ndarray/iter/select-dimension](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/ndarray/iter/select-dimension)
-
-<details>
-
-<section class="features">
-
-##### Features
-
+-   [`4289f78`](https://github.com/stdlib-js/stdlib/commit/4289f78da1d67c5671151413b4673ec32ede26c2) - add `nditerStacks` to namespace
+-   [`d256bd9`](https://github.com/stdlib-js/stdlib/commit/d256bd93e03a245d45b732ba4d8ab60e47d378d6) - add `ndarray/iter/stacks`
+-   [`873b085`](https://github.com/stdlib-js/stdlib/commit/873b085ae0183426f3e8e831a50a42e2df3ba13d) - add `nditerSubarrays` to namespace
+-   [`fd9a5c2`](https://github.com/stdlib-js/stdlib/commit/fd9a5c2e29508ab5b393e2273ddb7463be6affb3) - add `ndarray/iter/subarrays`
+-   [`46aec25`](https://github.com/stdlib-js/stdlib/commit/46aec25aac5d4a0c8a3fd7b719dd6a080e59beb8) - add `nditerSelectDimension` to namespace
 -   [`6dce19b`](https://github.com/stdlib-js/stdlib/commit/6dce19b2a2dfae6159257dab0c52a8421e0861d2) - add `ndarray/iter/select-dimension`
 
 </section>
 
 <!-- /.features -->
 
-</details>
+<section class="bug-fixes">
+
+### Bug Fixes
+
+-   [`e4dd1ed`](https://github.com/stdlib-js/stdlib/commit/e4dd1ed8bf809ec7c8c34fd8c5dae03f5ed7cdf3) - use correct name in package.json
+-   [`a299630`](https://github.com/stdlib-js/stdlib/commit/a299630d08a49ba51c6e3501fbd7d215338ca23a) - avoid potential external mutation
+-   [`7f368f6`](https://github.com/stdlib-js/stdlib/commit/7f368f6c3f4cea444a304a62616cea36a5f143eb) - remove unused imports from TS declaration file
 
 </section>
 
-<!-- /.package -->
-
-<section class="package" id="ndarray-iter-stacks-unreleased">
-
-#### [@stdlib/ndarray/iter/stacks](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/ndarray/iter/stacks)
-
-<details>
-
-<section class="features">
-
-##### Features
-
--   [`d256bd9`](https://github.com/stdlib-js/stdlib/commit/d256bd93e03a245d45b732ba4d8ab60e47d378d6) - add `ndarray/iter/stacks`
-
-</section>
-
-<!-- /.features -->
-
-</details>
-
-</section>
-
-<!-- /.package -->
-
-<section class="package" id="ndarray-iter-subarrays-unreleased">
-
-#### [@stdlib/ndarray/iter/subarrays](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/ndarray/iter/subarrays)
-
-<details>
-
-<section class="features">
-
-##### Features
-
--   [`fd9a5c2`](https://github.com/stdlib-js/stdlib/commit/fd9a5c2e29508ab5b393e2273ddb7463be6affb3) - add `ndarray/iter/subarrays`
-
-</section>
-
-<!-- /.features -->
-
-</details>
-
-</section>
-
-<!-- /.package -->
-
-</section>
-
-<!-- /.packages -->
+<!-- /.bug-fixes -->
 
 <section class="breaking-changes">
 
@@ -218,25 +49,25 @@
 
 <!-- /.breaking-changes -->
 
-<section class="contributors">
-
-### Contributors
-
-A total of 2 people contributed to this release. Thank you to the following contributors:
-
--   Athan Reines
--   Philipp Burckhardt
-
-</section>
-
-<!-- /.contributors -->
-
 <section class="commits">
 
 ### Commits
 
 <details>
 
+-   [`3590e0f`](https://github.com/stdlib-js/stdlib/commit/3590e0f954650d8129ca31cd2cbf3c6c3cfc097f) - **feat:** update `ndarray/iter` TypeScript declarations _(by Philipp Burckhardt)_
+-   [`5feedbc`](https://github.com/stdlib-js/stdlib/commit/5feedbcf7d1de8ab6259c96fa39a2fdc50e2c895) - **docs:** do not pass in options object to avoid cast error _(by Philipp Burckhardt)_
+-   [`8a6dbd7`](https://github.com/stdlib-js/stdlib/commit/8a6dbd7bf692bcd9ce166a7370eda0a7410da3b0) - **docs:** fix example code and return annotation values _(by Philipp Burckhardt)_
+-   [`07f7c05`](https://github.com/stdlib-js/stdlib/commit/07f7c0522c73e6ad9505e1d45035ae439344200d) - **test:** use standardized assertion messages and fix lint errors _(by Philipp Burckhardt)_
+-   [`c894b66`](https://github.com/stdlib-js/stdlib/commit/c894b664661bfb87286304b24dd5a1758ae482b7) - **test:** use .strictEqual() instead of .equal() and fix lint errors _(by Philipp Burckhardt)_
+-   [`e4dd1ed`](https://github.com/stdlib-js/stdlib/commit/e4dd1ed8bf809ec7c8c34fd8c5dae03f5ed7cdf3) - **fix:** use correct name in package.json _(by Philipp Burckhardt)_
+-   [`25f29f8`](https://github.com/stdlib-js/stdlib/commit/25f29f85b888fd71646902ad9cda4f5f6aa62eff) - **refactor:** use base assertion utility _(by Athan Reines)_
+-   [`f231799`](https://github.com/stdlib-js/stdlib/commit/f231799e1d40cfff7ceb79a6074166a08c4ba072) - **docs:** update related packages sections [(#4545)](https://github.com/stdlib-js/stdlib/pull/4545) _(by stdlib-bot)_
+-   [`2764a32`](https://github.com/stdlib-js/stdlib/commit/2764a32b5942d2aff2d0fe8cfcb2cd6b9c184633) - **docs:** fix grammar _(by Athan Reines)_
+-   [`2825b42`](https://github.com/stdlib-js/stdlib/commit/2825b42e8cd7483d15dfed1c6b389bfcb86d7ca0) - **docs:** update related packages sections [(#3898)](https://github.com/stdlib-js/stdlib/pull/3898) _(by stdlib-bot)_
+-   [`a299630`](https://github.com/stdlib-js/stdlib/commit/a299630d08a49ba51c6e3501fbd7d215338ca23a) - **fix:** avoid potential external mutation _(by Athan Reines)_
+-   [`cf7d38a`](https://github.com/stdlib-js/stdlib/commit/cf7d38ae3e7bce92cf47778f7b1c3da731121d77) - **docs:** update related packages sections [(#3527)](https://github.com/stdlib-js/stdlib/pull/3527) _(by stdlib-bot)_
+-   [`bf5643f`](https://github.com/stdlib-js/stdlib/commit/bf5643fb1a3f32a60903d8e210f71571e609119f) - **docs:** update related packages sections [(#3404)](https://github.com/stdlib-js/stdlib/pull/3404) _(by stdlib-bot)_
 -   [`8b1548f`](https://github.com/stdlib-js/stdlib/commit/8b1548fb45c1ff131f5edac20cb984344a2d28ec) - **feat:** update namespace TypeScript declarations [(#3190)](https://github.com/stdlib-js/stdlib/pull/3190) _(by stdlib-bot, Philipp Burckhardt)_
 -   [`7f368f6`](https://github.com/stdlib-js/stdlib/commit/7f368f6c3f4cea444a304a62616cea36a5f143eb) - **fix:** remove unused imports from TS declaration file _(by Philipp Burckhardt)_
 -   [`37ef5f4`](https://github.com/stdlib-js/stdlib/commit/37ef5f4f43d4fe03643b693a40b166420cbb07fd) - **refactor:** use dedicated array utility _(by Athan Reines)_
@@ -260,6 +91,19 @@ A total of 2 people contributed to this release. Thank you to the following cont
 
 <!-- /.commits -->
 
+<section class="contributors">
+
+### Contributors
+
+A total of 2 people contributed to this release. Thank you to the following contributors:
+
+-   Athan Reines
+-   Philipp Burckhardt
+
+</section>
+
+<!-- /.contributors -->
+
 </section>
 
 <!-- /.release -->
@@ -278,141 +122,24 @@ No changes reported for this release.
 
 ## 0.2.0 (2024-02-15)
 
-<section class="packages">
-
-### Packages
-
-<section class="package" id="ndarray-iter-v0.2.0">
-
-#### [@stdlib/ndarray/iter](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/ndarray/iter)
-
-<details>
-
 <section class="features">
 
-##### Features
+### Features
 
 -   [`d9952f2`](https://github.com/stdlib-js/stdlib/commit/d9952f2a25042570dfe5b20a2dacc4a07cec81c4) - update namespace TypeScript declarations [(#1128)](https://github.com/stdlib-js/stdlib/pull/1128)
 -   [`b01d709`](https://github.com/stdlib-js/stdlib/commit/b01d7098eca0cb303d820723d45e8c3e9828a944) - add `nditerMatrixEntries` to namespace
+-   [`5f80a15`](https://github.com/stdlib-js/stdlib/commit/5f80a15dcb950ca672331f0fc276b10bc7c06105) - add `ndarray/iter/matrix-entries`
 -   [`7685072`](https://github.com/stdlib-js/stdlib/commit/7685072aff78337a4ba796cb1ac4a6f5eb9d6a4d) - add `nditerColumnEntries` to namespace
+-   [`aeccc0d`](https://github.com/stdlib-js/stdlib/commit/aeccc0da93a0cd2ad37e8e8bb69494e8453b068e) - add `ndarray/iter/column-entries`
 -   [`b96a9a2`](https://github.com/stdlib-js/stdlib/commit/b96a9a24e8028d366f5435b793cd285a3565e008) - add `nditerRowEntries` to namespace
+-   [`344aa9e`](https://github.com/stdlib-js/stdlib/commit/344aa9e386486ee8b5af3edd2bd788db19f338e1) - add `ndarray/iter/row-entries`
 -   [`29d99d7`](https://github.com/stdlib-js/stdlib/commit/29d99d75414e9559ce2938cc19e4bc13af1d4968) - add `nditerMatrices` to namespace
+-   [`88a673c`](https://github.com/stdlib-js/stdlib/commit/88a673c7ed8f97ab14df8f26c60211f634994108) - add `ndarray/iter/matrices`
 -   [`7faffe3`](https://github.com/stdlib-js/stdlib/commit/7faffe325bbf186b14c3dfef621e9d4cc56b47ff) - update namespace TypeScript declarations [(#1122)](https://github.com/stdlib-js/stdlib/pull/1122)
 
 </section>
 
 <!-- /.features -->
-
-</details>
-
-</section>
-
-<!-- /.package -->
-
-<section class="package" id="ndarray-iter-column-entries-v0.2.0">
-
-#### [@stdlib/ndarray/iter/column-entries](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/ndarray/iter/column-entries)
-
-<details>
-
-<section class="features">
-
-##### Features
-
--   [`aeccc0d`](https://github.com/stdlib-js/stdlib/commit/aeccc0da93a0cd2ad37e8e8bb69494e8453b068e) - add `ndarray/iter/column-entries`
-
-</section>
-
-<!-- /.features -->
-
-</details>
-
-</section>
-
-<!-- /.package -->
-
-<section class="package" id="ndarray-iter-matrices-v0.2.0">
-
-#### [@stdlib/ndarray/iter/matrices](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/ndarray/iter/matrices)
-
-<details>
-
-<section class="features">
-
-##### Features
-
--   [`88a673c`](https://github.com/stdlib-js/stdlib/commit/88a673c7ed8f97ab14df8f26c60211f634994108) - add `ndarray/iter/matrices`
-
-</section>
-
-<!-- /.features -->
-
-</details>
-
-</section>
-
-<!-- /.package -->
-
-<section class="package" id="ndarray-iter-matrix-entries-v0.2.0">
-
-#### [@stdlib/ndarray/iter/matrix-entries](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/ndarray/iter/matrix-entries)
-
-<details>
-
-<section class="features">
-
-##### Features
-
--   [`5f80a15`](https://github.com/stdlib-js/stdlib/commit/5f80a15dcb950ca672331f0fc276b10bc7c06105) - add `ndarray/iter/matrix-entries`
-
-</section>
-
-<!-- /.features -->
-
-</details>
-
-</section>
-
-<!-- /.package -->
-
-<section class="package" id="ndarray-iter-row-entries-v0.2.0">
-
-#### [@stdlib/ndarray/iter/row-entries](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/ndarray/iter/row-entries)
-
-<details>
-
-<section class="features">
-
-##### Features
-
--   [`344aa9e`](https://github.com/stdlib-js/stdlib/commit/344aa9e386486ee8b5af3edd2bd788db19f338e1) - add `ndarray/iter/row-entries`
-
-</section>
-
-<!-- /.features -->
-
-</details>
-
-</section>
-
-<!-- /.package -->
-
-</section>
-
-<!-- /.packages -->
-
-<section class="contributors">
-
-### Contributors
-
-A total of 2 people contributed to this release. Thank you to the following contributors:
-
--   Athan Reines
--   Philipp Burckhardt
-
-</section>
-
-<!-- /.contributors -->
 
 <section class="commits">
 
@@ -456,6 +183,19 @@ A total of 2 people contributed to this release. Thank you to the following cont
 
 <!-- /.commits -->
 
+<section class="contributors">
+
+### Contributors
+
+A total of 2 people contributed to this release. Thank you to the following contributors:
+
+-   Athan Reines
+-   Philipp Burckhardt
+
+</section>
+
+<!-- /.contributors -->
+
 </section>
 
 <!-- /.release -->
@@ -464,124 +204,21 @@ A total of 2 people contributed to this release. Thank you to the following cont
 
 ## 0.1.0 (2023-10-14)
 
-<section class="packages">
-
-### Packages
-
-<section class="package" id="ndarray-iter-v0.1.0">
-
-#### [@stdlib/ndarray/iter](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/ndarray/iter)
-
-<details>
-
 <section class="features">
 
-##### Features
+### Features
 
 -   [`b45eb8f`](https://github.com/stdlib-js/stdlib/commit/b45eb8f83d224bea7e4bc063535ddb7962964872) - add `nditerValues` to namespace
+-   [`3cc2fdb`](https://github.com/stdlib-js/stdlib/commit/3cc2fdb3b4ba4b60fb52139dc3ffbef267ecfeec) - add `ndarray/iter/values`
 -   [`665ce24`](https://github.com/stdlib-js/stdlib/commit/665ce24b77631e05ab7f1788c5777e2fc7e7cca0) - add `nditerEntries` to namespace
--   [`5c7312f`](https://github.com/stdlib-js/stdlib/commit/5c7312f1de2a2e5b6c10c4c4e1c76e7cec8d1620) - add `nditerIndices` to namespace
--   [`474e7e4`](https://github.com/stdlib-js/stdlib/commit/474e7e4fb2a15bfc8e9e719692b94044d25a7365) - add `nditer2arrayEach` to namespace
--   [`9c23309`](https://github.com/stdlib-js/stdlib/commit/9c233099b1cb3304b0158a52e103b01b262fb683) - add `nditerColumns` to namespace
--   [`43b42fe`](https://github.com/stdlib-js/stdlib/commit/43b42fe596c9b01fb19d3dd710ef71dfdc738510) - add `ndarray/iter` namespace
-
-</section>
-
-<!-- /.features -->
-
-</details>
-
-</section>
-
-<!-- /.package -->
-
-<section class="package" id="ndarray-iter-columns-v0.1.0">
-
-#### [@stdlib/ndarray/iter/columns](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/ndarray/iter/columns)
-
-<details>
-
-<section class="features">
-
-##### Features
-
--   [`8aec891`](https://github.com/stdlib-js/stdlib/commit/8aec8914b2435090b1b466bcdd5820b158da94ef) - add `ndarray/iter/columns`
-
-</section>
-
-<!-- /.features -->
-
-<section class="bug-fixes">
-
-##### Bug Fixes
-
--   [`bc1768e`](https://github.com/stdlib-js/stdlib/commit/bc1768ea93ed7c72ce90dd4ade9b6786603381b8) - prevent creating writable views when an input array is read-only
--   [`92b814f`](https://github.com/stdlib-js/stdlib/commit/92b814fe9446bc9f31aed4fb151e6f8bf75213da) - update parameter name to match docs
-
-</section>
-
-<!-- /.bug-fixes -->
-
-</details>
-
-</section>
-
-<!-- /.package -->
-
-<section class="package" id="ndarray-iter-entries-v0.1.0">
-
-#### [@stdlib/ndarray/iter/entries](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/ndarray/iter/entries)
-
-<details>
-
-<section class="features">
-
-##### Features
-
 -   [`6cd1bad`](https://github.com/stdlib-js/stdlib/commit/6cd1badeb9fff42ccb03486ccf7d6c0b53d03350) - add `ndarray/iter/entries`
-
-</section>
-
-<!-- /.features -->
-
-</details>
-
-</section>
-
-<!-- /.package -->
-
-<section class="package" id="ndarray-iter-indices-v0.1.0">
-
-#### [@stdlib/ndarray/iter/indices](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/ndarray/iter/indices)
-
-<details>
-
-<section class="features">
-
-##### Features
-
+-   [`5c7312f`](https://github.com/stdlib-js/stdlib/commit/5c7312f1de2a2e5b6c10c4c4e1c76e7cec8d1620) - add `nditerIndices` to namespace
 -   [`613fb18`](https://github.com/stdlib-js/stdlib/commit/613fb18c3890649335378f7b235a5f06e96860eb) - add `ndarray/iter/indices`
-
-</section>
-
-<!-- /.features -->
-
-</details>
-
-</section>
-
-<!-- /.package -->
-
-<section class="package" id="ndarray-iter-rows-v0.1.0">
-
-#### [@stdlib/ndarray/iter/rows](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/ndarray/iter/rows)
-
-<details>
-
-<section class="features">
-
-##### Features
-
+-   [`474e7e4`](https://github.com/stdlib-js/stdlib/commit/474e7e4fb2a15bfc8e9e719692b94044d25a7365) - add `nditer2arrayEach` to namespace
+-   [`19af262`](https://github.com/stdlib-js/stdlib/commit/19af262e0319ea748c0300abfb363fb4561571a6) - add `ndarray/iter/to-array-each`
+-   [`9c23309`](https://github.com/stdlib-js/stdlib/commit/9c233099b1cb3304b0158a52e103b01b262fb683) - add `nditerColumns` to namespace
+-   [`8aec891`](https://github.com/stdlib-js/stdlib/commit/8aec8914b2435090b1b466bcdd5820b158da94ef) - add `ndarray/iter/columns`
+-   [`43b42fe`](https://github.com/stdlib-js/stdlib/commit/43b42fe596c9b01fb19d3dd710ef71dfdc738510) - add `ndarray/iter` namespace
 -   [`fda2bf6`](https://github.com/stdlib-js/stdlib/commit/fda2bf6c22937a44b2e17949b437d5bbec08708c) - add `ndarray/iter/rows`
 
 </section>
@@ -590,80 +227,16 @@ A total of 2 people contributed to this release. Thank you to the following cont
 
 <section class="bug-fixes">
 
-##### Bug Fixes
+### Bug Fixes
 
+-   [`bc1768e`](https://github.com/stdlib-js/stdlib/commit/bc1768ea93ed7c72ce90dd4ade9b6786603381b8) - prevent creating writable views when an input array is read-only
 -   [`64bd3a8`](https://github.com/stdlib-js/stdlib/commit/64bd3a808f060dc2004d130c2cb974b100527e82) - prevent creating writable views when provided a read-only array
+-   [`92b814f`](https://github.com/stdlib-js/stdlib/commit/92b814fe9446bc9f31aed4fb151e6f8bf75213da) - update parameter name to match docs
 -   [`69e0a71`](https://github.com/stdlib-js/stdlib/commit/69e0a718dd5b79eae03864b276b635754396d9a0) - update parameter name to match docs
 
 </section>
 
 <!-- /.bug-fixes -->
-
-</details>
-
-</section>
-
-<!-- /.package -->
-
-<section class="package" id="ndarray-iter-to-array-each-v0.1.0">
-
-#### [@stdlib/ndarray/iter/to-array-each](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/ndarray/iter/to-array-each)
-
-<details>
-
-<section class="features">
-
-##### Features
-
--   [`19af262`](https://github.com/stdlib-js/stdlib/commit/19af262e0319ea748c0300abfb363fb4561571a6) - add `ndarray/iter/to-array-each`
-
-</section>
-
-<!-- /.features -->
-
-</details>
-
-</section>
-
-<!-- /.package -->
-
-<section class="package" id="ndarray-iter-values-v0.1.0">
-
-#### [@stdlib/ndarray/iter/values](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/ndarray/iter/values)
-
-<details>
-
-<section class="features">
-
-##### Features
-
--   [`3cc2fdb`](https://github.com/stdlib-js/stdlib/commit/3cc2fdb3b4ba4b60fb52139dc3ffbef267ecfeec) - add `ndarray/iter/values`
-
-</section>
-
-<!-- /.features -->
-
-</details>
-
-</section>
-
-<!-- /.package -->
-
-</section>
-
-<!-- /.packages -->
-
-<section class="contributors">
-
-### Contributors
-
-A total of 1 person contributed to this release. Thank you to this contributor:
-
--   Athan Reines
-
-</section>
-
-<!-- /.contributors -->
 
 <section class="commits">
 
@@ -708,6 +281,18 @@ A total of 1 person contributed to this release. Thank you to this contributor:
 </section>
 
 <!-- /.commits -->
+
+<section class="contributors">
+
+### Contributors
+
+A total of 1 person contributed to this release. Thank you to this contributor:
+
+-   Athan Reines
+
+</section>
+
+<!-- /.contributors -->
 
 </section>
 
